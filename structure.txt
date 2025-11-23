@@ -1,0 +1,13 @@
+your_project/
+├── data/
+│   ├── ISIC2018/
+│   │   ├── images/          # Put downloaded images here
+│   │   └── masks/           # Put downloaded masks here
+│   └── synthetic/           # For immediate testing
+├── models/
+│   ├── base_unet.py
+│   ├── attention_unet.py    # Your innovation
+│   └── train.py
+└── utils/
+    ├── data_loader.py
+    └── metrics.py
